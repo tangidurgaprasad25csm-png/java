@@ -1,0 +1,41 @@
+class Sample{
+    int a;
+    float b;
+    char c;
+    string s;
+    public int a getA(){
+        return a;
+        }
+        public void setA(int a){
+            this.a=a;
+        }
+        public float b getB(){
+            return b;
+        }
+        public void setB(float b){
+            this.b=b;
+        }
+        public char c getC(){
+            return c;
+        }
+        public void setC(char c){
+            this.c=c;
+        }
+        public string s getS(){
+            return s;
+        }
+        public void setS(string s){
+            this.s=s;
+     }
+}
+public class Sample{
+    public static void main(string[] args){
+        sample s=new sample();
+        s.setA(1000);
+        system.out.println
+    }
+
+}
+
+        
+      
