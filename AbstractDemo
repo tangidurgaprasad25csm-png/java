@@ -1,0 +1,19 @@
+abstract class A{
+    int x
+    void sayMyName(){
+        system.out.println("My name is jairam");
+    }
+    abstract void sayMyAge();
+}
+public class AbstractDemo extends A{
+    @override
+    void sayMyAge(){
+        systemout.println("Age in sub class :"19);
+    }
+    public statis void main(string[] args){
+        AbstractDemo ad=new AbstractDemo();
+        system.out.println(ad.x);
+        ad.sayMyName();
+        ad.sayMyAge();
+    }
+}
